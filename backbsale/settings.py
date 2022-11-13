@@ -55,6 +55,7 @@ MIDDLEWARE = [
 # Urls permitidas a realizar peticiones a la API
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5500",
+    "https://test-frontend-bsale.herokuapp.com"
 ]
 
 # Solo permitir metodos GET para el API de prueba
