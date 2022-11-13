@@ -92,9 +92,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'bsale_test',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '172.18.0.3',
+        'USER': 'bsale_test',
+        'PASSWORD': 'bsale_test',
+        'HOST': 'mdb-test.c6vunyturrl6.us-west-1.rds.amazonaws.com',
         'PORT': '3306'
     }
 }
